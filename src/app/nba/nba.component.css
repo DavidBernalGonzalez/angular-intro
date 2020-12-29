@@ -1,0 +1,25 @@
+.wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.bold{
+  font-weight: bolder;
+  text-align: center;
+  margin: 15px 0;
+}
+
+#img1{
+  width: 155px;
+  height: 100px;
+  margin: 20px;
+}
+
+.noBullet{
+  list-style-type: none;
+}
+
+.bullet{
+  list-style: disc;
+}

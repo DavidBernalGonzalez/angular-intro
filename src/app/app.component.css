@@ -1,0 +1,57 @@
+.nav {
+  background-color: #333333;
+  color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.body {
+  background-color: #f97778;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.photo{
+  border: solid 10px #D3D3D3;
+}
+
+.size1{
+  max-width: 200px;
+}
+
+.size2{
+  max-width: 275px;
+}
+
+.size3{
+  max-width: 600px;
+}
+
+figcaption{
+  color: white;
+  font-size: small;
+}
+
+/* SMALL SCREEN (max-width: 961px) and (min-width: 767px)*   →  (Mobile)*/
+@media screen and (max-width: 961px) {
+  .size1{
+    max-width: 125px;
+  }
+
+  .size2{
+    max-width: 175px;
+  }
+
+  .size3{
+    max-width: 285px;
+  }
+}
